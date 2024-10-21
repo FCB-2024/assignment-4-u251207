@@ -4,8 +4,8 @@
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
 	## IDENTATION AS THIS COMMENT
-	c = 0
-	i = 1
+	c=0
+	i=1
 
 	while i <= x:
 		if x % i == 0:
@@ -13,14 +13,14 @@ def main(x) :
 		i = i + 1
 	l = x-1
 	k = 0
-	while 1 >= 1 and k< c:
-		j = 1
-		k = 0
+	while l >= 1 and k< c:
+		j=1
+		k=0
 		while j <= 1:
 			if l % j == 0:
-				k = k + 1
-			j = j + 1
-		l = l - 1
+				k = k+1
+			j = j+1
+		l = l-1
 	if k >= c:
 		res="not anti-prime"
 	else:
