@@ -10,7 +10,7 @@ def main(x) :
 	while i <= x:
 		if x % i == 0:
 			c= c + 1
-		i = i + 1
+		i= i + 1
 	l = x-1
 	k = 0
 	while l >= 1 and k< c:
