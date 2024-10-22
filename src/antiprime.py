@@ -16,7 +16,7 @@ def main(x) :
 	while l >= 1 and k< c:
 		j=1
 		k=0
-		while j <= 1:
+		while j <= l:
 			if l % j == 0:
 				k = k+1
 			j = j+1
