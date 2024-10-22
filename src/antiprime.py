@@ -4,6 +4,25 @@
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
 	## IDENTATION AS THIS COMMENT
+	def main(x):
+    def count_divisors(n):
+        count = 0
+        for i in range(1, n + 1):
+            if n % i == 0:
+                count += 1
+        return count
+
+    # Contar divisores de x
+    divisores_x = count_divisors(x)
+
+    # Verificar si algún número menor que x tiene más o iguales divisores
+    for i in range(1, x):
+        if count_divisors(i) >= divisores_x:
+            print("not anti-prime")
+            return
+
+    print("anti-prime")
+
 	c=0
 	i=1
 
